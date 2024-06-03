@@ -1,0 +1,78 @@
+header {
+      background-color:#00cc00;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+nav {
+      background-color:#00e600;
+      padding: 10px;
+    }
+nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+nav ul li {
+      margin: 0 10px;
+    }
+nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }  
+    body {
+      font-family: Arial, sans-serif;
+  }
+  
+  .container {
+      margin-top: 50px;
+  }
+  
+  h2 {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      font-weight: bold;
+  }
+  
+  h4 {
+      color: #f44336;
+      margin-bottom: 0;
+  }
+  p{
+    font-weight: bold;
+  }
+  .stat-card {
+      transition: transform 0.3s, box-shadow 0.3s;
+      border: none;
+      margin-bottom: 20px;
+      background-color: #286aac; /* Added background color */
+      border-radius: 8px; /* Added border radius */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box-shadow */
+  }
+  
+  .stat-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced hover shadow */
+    }
+  
+  .stat-card .card-body {
+      padding: 20px 10px; /* Reduced padding */
+  }
+  
+  .stat-card i {
+      color: #f44336;
+      margin-bottom: 10px; /* Reduced margin */
+  }
+  
+  .stat-card h3 {
+      font-size: 1.5rem; /* Reduced font size */
+      margin-bottom: 5px; /* Reduced margin */
+  }
+  
+  .stat-card p {
+      font-size: 0.875rem; /* Reduced font size */
+      color: #666;
+  }
+  
